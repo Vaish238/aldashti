@@ -11,7 +11,9 @@
                 --btn-padding-top: .6rem;
                 --margin-bottom: 1rem;
             }
-            
+            body{
+                    background: #eeeff0;
+            }
             .navbar {
                 min-height: 88px !important;
             }
@@ -282,7 +284,116 @@
             /* media queries */
             
             element.style {}
-            
+
+
+            .banner-inner{
+                   background-color: #6a003a;
+                    height: 224px;
+            }
+            .bread-crum{
+                    padding-top: 142px;
+    display: flex;
+    align-items: center;
+            }
+            .bread-crum-text{
+                color: white;
+            }
+            .bread-crum-text:hover{
+                color: whitesmoke;
+            }
+
+
+
+
+
+            /*about style*/
+            .abt-left{
+                background-color: white;
+                  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            }
+            .abt-right{
+                    background: #020246;
+                      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            }
+            .abt-content{
+                    padding: 23px;
+            }
+            .abt-content h4{
+                font-weight: 600;
+                font-family: 'Poppins';
+                font-size: 27px;
+            }
+            .about-p{
+                    padding-top: 60px;
+                     padding-bottom: 60px;
+            }
+            .abt-img img{
+                width: 100%;
+            }
+            .abt-content{
+                    font-size: 17px;
+    text-align: justify;
+            }
+            .bperaDiv{
+                    padding-bottom: 20px;
+    padding-top: 24px;
+            }
+            .blogDec{
+                    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+            }
+            .blogTitle a{
+
+    color: aliceblue;
+            }
+
+.address{
+        padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.card{
+        min-height: 150px;
+        background: white;
+    padding: 15px;
+    text-align: center;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.card .fa{
+        font-size: 3rem;
+    color: #8d034f;
+    padding-top: 10px;
+}
+.card h6{
+        font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.map{
+        padding-top: 5px;
+    padding-bottom: 45px;
+}
+.address h3{
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 600;
+       font-family: 'Poppins';
+    font-size: 32px;
+}
+
+.address h3::after{
+
+}
+
+
+
+
+
             @media (min-width: 768px) {
                 .navbar-right {
                     padding-top: 2rem;
